@@ -12,14 +12,7 @@ class ListSeperatedScreen extends StatefulWidget {
 class _ListSeperatedScreenState extends State<ListSeperatedScreen> {
   @override
   Widget build(BuildContext context) {
-    var arrName = [
-      'Lorem',
-      ' ipsum ',
-      ' sit',
-      'adipiscing',
-      'elit.',
-      'Integer '
-    ];
+    var arrName = ['Lorem', ' ipsum', ' sit', 'adipiscing', 'elit.', 'Integer'];
     return Scaffold(
       body: SafeArea(
         child: Column(
